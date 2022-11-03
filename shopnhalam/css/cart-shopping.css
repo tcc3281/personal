@@ -1,0 +1,175 @@
+.product-container{
+    margin: 30px 0 0 0;
+    width: 100%;
+    min-width: 500px;
+}
+.product-header{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    border-bottom: 5px solid black;
+    width: 100%;
+}
+.product-header h3{
+    border: 0;
+    margin: 0;
+}
+.name-product{
+    width: 45%;
+    align-items: center;
+    display: flex;
+    padding: 0 0 0 15px;
+    justify-content:flex-start;
+}
+.name-product img{
+    width: fit-content;
+    height: 100px;
+    box-sizing: border-box;
+    margin: 10px 20px 10px 30px;
+}
+.price-product{
+    width: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quanlity-product{
+    width: 27%;
+    text-align: center;
+}
+.quanlity-product span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.total-product{
+    width: 15%;
+    text-align: center;
+}
+.product-in-cart{
+    display: table;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.name-product>button{
+    position:absolute;
+}
+.display-p{
+    box-sizing: border-box;
+    display: flex;
+    margin: 10px 0;
+    border: 2px solid black;
+    width: 100%;
+    height: 100px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 12px;
+}
+button.cart_but{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border: 0;
+    background-color: black;
+    margin: 5px;
+    color: white;
+    font-size: 15px;
+}
+h4>a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.display-p h4>a:hover{
+    color:rgb(237, 18, 18);
+}
+.payment{
+    text-align: right;
+    margin: 20px 0;
+    padding-top: 20px;
+}
+.payment h1,h2{
+    margin: 10px 0;
+}
+button.pay{
+    height: 50px;
+    width: 150px;
+    border-radius: 0;
+    font-weight: 700;
+    border: 0;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+}
+button.pay:hover{
+    background-color: rgb(237, 18, 18);
+}
+button.cart_but:hover{
+    background-color: rgb(237, 18, 18);
+}
+span.price{
+    font-size: 20px;
+}
+span#note_cart{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(237, 18, 18);;
+    box-sizing: border-box;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 45%;
+    right: 7px;
+    font-size: 14px;
+}
+div.person_infor{
+    margin-top: 50px;
+}
+div.person_infor h1,p>i{
+    color: black;
+    text-align: left;
+}
+div.person_infor p{
+    text-align: left;
+}
+table.person_infor{
+    width: 100%;  
+    height: auto;
+    margin: 20px 0;
+}
+table.person_infor tbody{
+    width: inherit;
+    height: inherit;
+} 
+table.person_infor tbody tr{
+    width: 100%;
+    height: 30px;
+} 
+table.person_infor tbody tr td:first-child{
+    width: 120px;
+}
+label{
+    cursor: text;
+}
+input{
+    width: 100%;
+    height: 25px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#unit{
+    font-size: 80%;
+    position: relative;
+    bottom: 2px;
+}

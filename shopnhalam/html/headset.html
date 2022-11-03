@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/product.css"/>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/cart-shopping.css">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <title>Headset</title>
+  </head>
+  <body>
+    <div class="main">
+      <div id="header">
+        <div class="header__nav">
+            <nav class="container">
+                <a href="./index.html" id="logo">
+                    <img src="../img/logo.png" alt="Logo">
+                </a>
+                <ul id="main-menu">
+                    <li><a href="./product.html">SẢN PHẨM&#9660;</a>
+                        <ul class="menu-con">
+                            <li><a href="./mouse.html">CHUỘT</a></li>
+                            <li><a href="./headset.html">TAI NGHE</a></li>
+                            <li><a href="./keyboard.html">BÀN PHÍM</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./support.html">HỖ TRỢ</a></li>
+                    <li><a href="./cart-shopping.html">GIỎ HÀNG <i class="fa-sharp fa-solid fa-cart-shopping"></i><span id="note_cart"></span></a></li>
+                    <li><a href="./login.html">ĐĂNG NHẬP</a></li>
+                </ul>
+            </nav>
+        </div>
+
+      </div>
+      <div id="content">
+        <div id="slider"></div>
+
+        <!-- --------------------------- -->
+
+        <div id="headset">
+          <img src="../img/img_product/headsets/headset__banner.jfif" alt="headset banner" class="banner">
+          <h1>HEADSETS</h1>
+          <p>Comfortable and durable, but above all optimized for excellent sound and mic quality. That’s how we<br> design each and every one of our headsets. Our range includes everything from in-ear to over-ear and<br> includes 7.1, stereo and mobile options.</p>
+          <div class="card__container">
+            <div class="card">
+              <div class="card__name">Syn Max Air</div>
+              <div class="card__price">
+                $319 <span style="font-size: small"></span>
+              </div>
+              <div id="card__picture">
+                <a href="#"
+                  ><img
+                    class="card__picture card__picture--moveup--only"
+                    src="../img/img_product/headsets/1.png"
+                    alt="head-set"
+                /></a>
+              </div>
+              <button class="card__button" onclick="select(6)">Add Cart</button>
+            </div>
+            <div class="card">
+              <div class="card__name">Elo 7.1 Air</div>
+              <div class="card__price">
+                $99 <span style="font-size: small"></span>
+              </div>
+              <div id="card__picture">
+                <a href="#"
+                  ><img
+                    class="card__picture card__picture--moveup--only"
+                    src="../img/img_product/headsets/2.png"
+                    alt="head-set"
+                /></a>
+              </div>
+              <button class="card__button" onclick="select(7)">Add Cart</button>
+            </div>
+            <div class="card">
+              <div class="card__name">Syn Buds Air</div>
+              <div class="card__price">
+                $139<span style="font-size: small"></span>
+              </div>
+              <div id="card__picture">
+                <a href="#"
+                  ><img
+                    class="card__picture card__picture--moveup--only"
+                    src="../img/img_product/headsets/3.png"
+                    alt="head-set"
+                /></a>
+              </div>
+              <button class="card__button" onclick="select(8)">Add Cart</button>
+            </div>
+            <div class="card">
+              <div class="card__name">Elo 7.1 USB</div>
+              <div class="card__price">
+                $199<span style="font-size: small"></span>
+              </div>
+              <div id="card__picture">
+                <a href="#"
+                  ><img
+                    class="card__picture card__picture--moveup--only"
+                    src="../img/img_product/headsets/4.png"
+                    alt="head-set"
+                /></a>
+              </div>
+              <button class="card__button" onclick="select(9)">Add Cart</button>
+            </div>
+            <div class="card">
+              <div class="card__name">Elo X Stereo</div>
+              <div class="card__price">
+                $69<span style="font-size: small"></span>
+              </div>
+              <div id="card__picture">
+                <a href="#"
+                  ><img
+                    class="card__picture card__picture--moveup--only"
+                    src="../img/img_product/headsets/5.png"
+                    alt="head-set"
+                /></a>
+              </div>
+              <button class="card__button" onclick="select(10)">Add Cart</button>
+            </div>
+            <div class="card">
+              <div class="card__name">Syn Pro Air</div>
+              <div class="card__price">
+                $69<span style="font-size: small"></span>
+              </div>
+              <div id="card__picture">
+                <a href="#"
+                  ><img
+                    class="card__picture card__picture--moveup--only"
+                    src="../img/img_product/headsets/6.png"
+                    alt="head-set"
+                /></a>
+              </div>
+              <button class="card__button" onclick="select(11)">Add Cart</button>
+            </div>
+          </div>
+        </div>
+        <div id="keyboard">
+          <!-- --------------------------- -->
+
+        </div>
+      <script src="../js/cart-shopping.js">
+      </script>
+      <script>
+        onloadCartNumber();
+        displaycart();
+    </script>
+      <div id="footer">
+        <div>
+          <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a><br>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i> Instagram</a><br>
+          <a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a><br>
+        </div>
+        <address>
+          <ul>
+            <li>NHÓM 12 THIẾT KẾ WEB</li>
+            <li><a href="tel:012345678">012345678</a></li>
+            <li><a href="mailto:nhom12@gmail.com">nhom12@gmail.com</a></li>
+          </ul>
+        </address>
+      </div>
+    </div>
+  </body>
+</html>

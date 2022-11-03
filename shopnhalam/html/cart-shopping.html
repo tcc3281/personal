@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/cart-shopping.css">
+    <script src="../js/cart-shopping.js"></script>
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/product.css">
+</head>
+
+<body>
+    <nav class="container">
+        <a href="./index.html" id="logo">
+            <img src="../img/logo.png" alt="Logo">
+        </a>
+        <ul id="main-menu">
+            <li><a href="./product.html">SẢN PHẨM&#9660;</a>
+                <ul class="menu-con">
+                    <li><a href="./mouse.html">CHUỘT</a></li>
+                    <li><a href="./headset.html">TAI NGHE</a></li>
+                    <li><a href="./keyboard.html">BÀN PHÍM</a></li>
+                </ul>
+            </li>
+            <li><a href="./support.html">HỖ TRỢ</a></li>
+            <li><a href="./cart-shopping.html">GIỎ HÀNG <i class="fa-sharp fa-solid fa-cart-shopping"></i><span id="note_cart"></span></a></li>
+            <li><a href="./login.html">ĐĂNG NHẬP</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="product-container">
+            <div class="product-header">
+                <div class="name-product">
+                    <h3>SẢN PHẨM</h3>
+                </div>
+                <div class="price-product">
+                    <h3>GIÁ</h3>
+                </div>
+                
+                <div class="quanlity-product">
+                    <h3>SỐ LƯỢNG</h3>
+                </div>
+                
+                <div class="price-total">
+                    <h3>TỔNG</h3>
+                </div>
+            </div>
+            <div class="product-in-cart">
+            </div>
+            <div class="payment">
+            </div>
+        </div>
+    </main>
+    <script>
+        onloadCartNumber();
+        displaycart();
+    </script>
+    <div id="footer">
+        <div>
+          <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a><br>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i> Instagram</a><br>
+          <a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a><br>
+        </div>
+        <address>
+          <ul>
+            <li>NHÓM 12 THIẾT KẾ WEB</li>
+            <li><a href="tel:012345678">012345678</a></li>
+            <li><a href="mailto:nhom12@gmail.com">nhom12@gmail.com</a></li>
+          </ul>
+        </address>
+      </div>
+    <script src="../js/cart-shopping.js"></script>
+</body>
+
+</html>

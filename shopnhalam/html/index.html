@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop nhà làm</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/cart-shopping.css">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/product.css">
+</head>
+
+<body>
+    <nav class="container">
+        <a href="./index.html" id="logo">
+            <img src="../img/logo.png" alt="Logo">
+        </a>
+        <ul id="main-menu">
+            <li><a href="./product.html">SẢN PHẨM&#9660;</a>
+                <ul class="menu-con">
+                    <li><a href="./mouse.html">CHUỘT</a></li>
+                    <li><a href="./headset.html">TAI NGHE</a></li>
+                    <li><a href="./keyboard.html">BÀN PHÍM</a></li>
+                </ul>
+            </li>
+            <li><a href="./support.html">HỖ TRỢ</a></li>
+            <li><a href="./cart-shopping.html">GIỎ HÀNG <i class="fa-sharp fa-solid fa-cart-shopping"></i><span id="note_cart"></span></a></li>
+            <li><a href="./login.html">ĐĂNG NHẬP</a></li>
+        </ul>
+    </nav>
+
+    <div class="slider">
+        <i class="fa fa-angle-left slider-prev"></i>
+        <ul class="slider-dots">
+          <li class="slider-dot-item active" data-index="0"></li>
+          <li class="slider-dot-item" data-index="1"></li>
+          <li class="slider-dot-item" data-index="2"></li>
+          <li class="slider-dot-item" data-index="3"></li>
+          <li class="slider-dot-item" data-index="4"></li>
+        </ul>
+        <div class="slider-wrapper">
+          <div class="slider-main">
+            <div class="slider-item">
+              <a class="slider-a" href=""><img src="../img/img_product/slider/1.jfif" alt=""/></a>
+            </div>
+            <div class="slider-item">
+              <a href="" class="slider-a"><img src="../img/img_product/slider/2.jfif" alt=""/></a>
+            </div>
+            <div class="slider-item">
+              <a href="" class="slider-a"><img src="../img/img_product/slider/3.jfif" alt=""/></a>
+            </div>
+            <div class="slider-item">
+              <a href="" class="slider-a"><img src="../img/img_product/slider/4.jfif" alt=""/></a>
+            </div>
+            <div class="slider-item">
+              <a href="" class="slider-a"><img src="../img/img_product/slider/5.jfif" alt=""/></a>
+            </div>
+          </div>
+        </div>
+        <i class="fa fa-angle-right slider-next"></i>
+      </div>
+      <script src="../js/slider.js"></script>
+    <main>
+        <div>
+            <!-- sản phẩm -->
+            <div id="content">
+                <div id="mouse">
+                  <!-- --------------------- -->
+                  <div class="card__container">
+                    <div class="card">
+                      <div class="card__name">Kone XP Air</div>
+                      <div class="card__price">
+                        $219<span style="font-size: small"></span>
+                      </div>
+                      <div id="card__picture">
+                        <a href="#"
+                          ><img
+                            class="card__picture card__picture--moveup"
+                            src="../img/img_product/mouse/1w.png"
+                            alt="gaming_mouse"
+                        /></a>
+                        <a href="#"
+                          ><img
+                            class="card__picture card__picture--movedown"
+                            src="../img/img_product/mouse/1b.png"
+                            alt="gaming_mouse"
+                        /></a>
+                      </div>
+                      <button class="card__button" onclick="select(0)">Add Cart</button>
+                    </div>
+                    <div class="card">
+                      <div class="card__name">Burst Pro</div>
+                      <div class="card__price">
+                        $79<span style="font-size: small"></span>
+                      </div>
+                      <div id="card__picture">
+                        <a href="#"
+                          ><img
+                            class="card__picture card__picture--moveup"
+                            src="../img/img_product/mouse/2w.png"
+                            alt="gaming_mouse"
+                        /></a>
+                        <a href="#"
+                          ><img
+                            class="card__picture card__picture--movedown"
+                            src="../img/img_product/mouse/2b.png"
+                            alt="gaming_mouse"
+                        /></a>
+                      </div>
+                      <button class="card__button" onclick="select(1)">Add Cart</button>
+                    </div>
+                    <div class="card">
+                        <div class="card__name">Syn Max Air</div>
+                        <div class="card__price">
+                          $319 <span style="font-size: small"></span>
+                        </div>
+                        <div id="card__picture">
+                          <a href="#"
+                            ><img
+                              class="card__picture card__picture--moveup--only"
+                              src="../img/img_product/headsets/1.png"
+                              alt="head-set"
+                          /></a>
+                        </div>
+                        <button class="card__button" onclick="select(6)">Add Cart</button>
+                      </div>
+                      <div class="card">
+                        <div class="card__name">Elo 7.1 Air</div>
+                        <div class="card__price">
+                          $99 <span style="font-size: small"></span>
+                        </div>
+                        <div id="card__picture">
+                          <a href="#"
+                            ><img
+                              class="card__picture card__picture--moveup--only"
+                              src="../img/img_product/headsets/2.png"
+                              alt="head-set"
+                          /></a>
+                        </div>
+                        <button class="card__button" onclick="select(7)">Add Cart</button>
+                      </div>
+                      <div class="card">
+                        <div class="card__name">Vulcan Pro</div>
+                        <div class="card__price">
+                          $149<span style="font-size: small"></span>
+                        </div>
+                        <div id="card__picture">
+                          <a href="#"
+                            ><img
+                              class="card__picture card__picture--moveup--only"
+                              src="../img/img_product/keyboard/4.png"
+                              alt="keyboard"
+                          /></a>
+                        </div>
+                        <button class="card__button" onclick="select(15)">Add Cart</button>
+                      </div>
+                      <div class="card">
+                        <div class="card__name">Vulcan TKL Pro</div>
+                        <div class="card__price">
+                          $209<span style="font-size: small"></span>
+                        </div>
+                        <div id="card__picture">
+                          <a href="#"
+                            ><img
+                              class="card__picture card__picture--moveup--only"
+                              src="../img/img_product/keyboard/5.png"
+                              alt="keyboard"
+                          /></a>
+                        </div>
+                        <button class="card__button" onclick="select(16)">Add Cart</button>
+                      </div>
+                  </div>
+                </div>
+        
+                
+        </div>
+    </main>
+    <script src="../js/cart-shopping.js"></script>
+    <script>
+        onloadCartNumber();
+    </script>
+    <div id="footer">
+        <div>
+          <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a><br>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i> Instagram</a><br>
+          <a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a><br>
+        </div>
+        <address>
+          <ul>
+            <li>NHÓM 12 THIẾT KẾ WEB</li>
+            <li><a href="tel:012345678">012345678</a></li>
+            <li><a href="mailto:nhom12@gmail.com">nhom12@gmail.com</a></li>
+          </ul>
+        </address>
+      </div>
+    </div>
+</body>
+
+</html>
